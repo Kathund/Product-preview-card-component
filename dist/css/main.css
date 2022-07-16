@@ -1,0 +1,20 @@
+* *::before *::after {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+}
+
+.left {
+  width: 512px;
+  height: auto;
+}/*# sourceMappingURL=main.css.map */
