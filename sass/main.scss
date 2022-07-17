@@ -29,13 +29,14 @@ body {
     display: flex;
     flex-direction: row;
     .left {
+        width: 300px;
         img {
             height: 400px;
         }
     }
     .right {
-        max-width: 300px;
-        padding: 18px;
+        width: 300px;
+        height: 400px;
         background-color: $White;
         h1 {
             font-weight: 700;
