@@ -19,20 +19,23 @@ body {
 .container {
   width: 600px;
   height: 400px;
-  background-color: hsl(0deg, 0%, 100%);
   display: flex;
-  flex-direction: row;
 }
 .container .left {
   width: 300px;
+  height: 400px;
 }
 .container .left img {
-  height: 400px;
-}
-.container .right {
   width: 300px;
   height: 400px;
+  border-radius: 18px 0 0 18px;
+}
+.container .right {
+  height: auto;
+  width: 300px;
   background-color: hsl(0deg, 0%, 100%);
+  border-radius: 0 18px 18px 0;
+  padding: 18px;
 }
 .container .right h1 {
   font-weight: 700;
@@ -61,6 +64,4 @@ body {
   font-size: 12px;
   color: hsl(228deg, 12%, 48%);
   text-decoration: line-through;
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
