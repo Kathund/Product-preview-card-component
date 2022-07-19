@@ -5,8 +5,7 @@
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
+  min-height: 98vh;
   background-color: hsl(30deg, 38%, 92%);
   display: flex;
   align-items: center;
@@ -17,22 +16,22 @@ body {
 }
 
 .container {
-  width: 600px;
-  height: 400px;
+  width: 550px;
+  height: 420px;
   display: flex;
 }
 .container .left {
-  width: 300px;
-  height: 400px;
+  width: 275px;
+  height: 420px;
 }
 .container .left img {
-  width: 300px;
-  height: 400px;
+  width: 275px;
+  height: 420px;
   border-radius: 18px 0 0 18px;
 }
 .container .right {
+  width: 275px;
   height: auto;
-  width: 300px;
   background-color: hsl(0deg, 0%, 100%);
   border-radius: 0 18px 18px 0;
   padding: 18px;
@@ -52,16 +51,32 @@ body {
 .container .right p {
   color: hsl(228deg, 12%, 48%);
 }
-.container .right .price {
+.container .right .price-text {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
   font-family: "Fraunces", serif;
+  padding: 24px 0;
 }
-.container .right .price p {
+.container .right .price-text .current-price {
+  font-size: 1.75rem;
   color: hsl(158deg, 36%, 37%);
-  font-weight: 700;
-  font-size: 32px;
 }
-.container .right .price span {
-  font-size: 12px;
-  color: hsl(228deg, 12%, 48%);
+.container .right .price-text .original-price {
+  font-size: 0.75rem;
   text-decoration: line-through;
-}/*# sourceMappingURL=main.css.map */
+  color: hsl(228deg, 12%, 48%);
+}
+.container .right button {
+  width: 222px;
+  height: 40px;
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(158deg, 36%, 37%);
+  border: none;
+  border-radius: 8px;
+}
+.container .right button img {
+  padding: 0 8px;
+}
+
+/*# sourceMappingURL=main.css.map */
